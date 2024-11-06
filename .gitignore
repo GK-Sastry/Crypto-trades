@@ -1,0 +1,21 @@
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# dotenv environment variables file
+.env
+
+# Ignore log files created by winston
+combined.log
+error.log
+
+# Ignore everything inside the uploads and errors folders
+uploads/*
+errors/*
+
+# But don't ignore the folders themselves or the .gitkeep files
+!uploads/.gitkeep
+!errors/.gitkeep
+
