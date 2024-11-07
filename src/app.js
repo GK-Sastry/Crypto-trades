@@ -1,11 +1,11 @@
 // app.js
-const express = require("express");
-const cors = require("cors");
-const tradeRoutes = require("./routes/tradeRoutes");
-const balanceRoutes = require("./routes/balanceRoutes");
-require("dotenv").config();
+// const express = require("express");
+// const cors = require("cors");
+// const tradeRoutes = require("./routes/tradeRoutes");
+// const balanceRoutes = require("./routes/balanceRoutes");
+// require("dotenv").config();
 
-const app = express();
+// const app = express();
 
 // Middleware
 app.use(cors());
